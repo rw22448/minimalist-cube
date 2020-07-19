@@ -1,0 +1,16 @@
+{
+  "name": "minimalist-cube",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^1.5.1"
+  },
+  "devDependencies": {
+    "stylelint": "^13.6.1",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
